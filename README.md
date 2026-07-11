@@ -2,8 +2,8 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+![產品圖片](images/app.jpg)
 
-https://images/product.jpg
 
 📖 簡介
 neGuard 是一個基於 ESP32-C3 的智慧姿勢矯正裝置。它能透過 BLE 與「NeckEase 頸智鬆」手機應用程式配對設定，之後便能離線獨立運作，即時監測你的頭部角度。當偵測到不良姿勢（如「烏龜頸」）過久時，neGuard 會以震動提醒，幫助你養成良好的姿勢習慣。
