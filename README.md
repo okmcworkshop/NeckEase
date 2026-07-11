@@ -74,7 +74,8 @@ GPIO 9 (SCL)	MPU-6050	I2C 時脈線
 
 支撐：不需要支撐。
 
-https://images/case.jpg
+![3D 列印外殼](images/case.jpg)
+
 
 3. 軟體燒錄 (韌體)
 韌體使用 C++ 編寫，在 Arduino IDE 中開發。
