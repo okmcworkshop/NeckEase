@@ -1,5 +1,7 @@
 #NeckEase 頸智鬆 - 實體裝置 neGuard
-https://img.shields.io/badge/License-MIT-yellow.svg
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 https://images/product.jpg
 
