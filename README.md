@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![產品圖片](images/app.jpg)
+![neGuard圖片](images/neGuard.jpg)
 
 
 📖 簡介
@@ -123,7 +123,7 @@ ESP32 BLE Arduino (通常已內建)
 
 開始使用：設定完成後，將 neGuard 夾在(左)耳朵上。當你的頭部前傾角度超過設定值且持續時間過長時，neGuard 便會震動提醒你。此後，即使手機不在身邊，neGuard 也能獨立工作。
 
-https://images/app.jpg
+![產品圖片](images/app.jpg)
 
 📜 授權資訊
 本專案 (包含韌體、硬體設計檔案、3D 列印檔案) 採用 MIT License 開源授權。
