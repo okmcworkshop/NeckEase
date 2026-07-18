@@ -1,4 +1,4 @@
-#NeckEase 頸智鬆 - 實體裝置 neGuard
+# NeckEase 頸智鬆 - 實體裝置 neGuard
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -116,7 +116,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 
 電源：鋰電池透過「充電模組」的 BAT+ 和 BAT- 連接，充電模組的 OUT- 和 OUT+ 經過「電源開關」後，再接到 ESP32-C3 的 5V 和 GND 引腳。
 
-2. 3D 列印外殼
+# 2. 3D 列印外殼
 請使用以下建議設定列印外殼。STL 檔案可以在 hardware/3d_print/ 資料夾中找到。
 
 材料：PLA 或 PLA+ (約 10g)
@@ -136,7 +136,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 ![3D 列印外殼](images/case.jpg)
 
 
-3. 軟體燒錄 (韌體)
+# 3. 軟體燒錄 (韌體)
 韌體使用 C++ 編寫，在 Arduino IDE 中開發。
 
 安裝 Arduino IDE：從 官方網站 下載並安裝。
