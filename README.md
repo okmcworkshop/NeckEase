@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![neGuard圖片](images/neGuard.jpg)
+![neGuard圖片](images/neGuard_v2.jpg)
 
 
 📖 簡介
