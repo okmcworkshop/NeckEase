@@ -159,7 +159,7 @@ ESP32 BLE Arduino (通常已內建)
 
 開啟韌體專案：
 
-下載本倉庫的程式碼，在 Arduino IDE 中開啟 firmware/neGuard.ino 檔案。
+下載本倉庫的程式碼，在 Arduino IDE 中開啟 firmware/neGuard_v2.ino 檔案。
 
 選擇開發板與連接埠：
 
