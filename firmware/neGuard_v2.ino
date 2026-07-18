@@ -41,7 +41,7 @@ float gyroX_offset = 0, gyroY_offset = 0, gyroZ_offset = 0;
 
 // 光敏電阻腳位
 const int LIGHT_SENSOR_PIN = 3;  // GPIO3
-const int V_MOTOR_PIN = 1;        // GPIO0
+const int V_MOTOR_PIN = 1;       // GPIO1
 
 // 警報（來自 App 手動觸發）
 unsigned long alarmStartTime = 0;
