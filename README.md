@@ -25,7 +25,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 
 🧩 硬體需求
 以下是製作 neGuard 所需的完整零件清單：
-![零件清單](images/parts.jpg)
+![零件清單](images/parts.JPG)
 ### 硬體需求清單
 
 - **微控制器**：ESP32-C3 Supermini 開發板 × 1（核心運算單元，支援 BLE）
@@ -44,7 +44,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 1. 電路連接 (接線圖)
 請參考以下接線圖進行焊接。確保所有連接牢固，震動馬達及光敏電阻需加上熱縮通絕緣，避免短路。
 
-![接線圖](images/wiring_v3.jpg)
+![接線圖](images/wiring_v3.JPG)
 
 
 | 步驟 | 連接點 A | 連接點 B | 說明 |
@@ -66,7 +66,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 
 ## 震動馬達模組驅動接線（GPIO 1）
 
-![震動馬達 驅動電路](images/vMotor_set.jpg)
+![震動馬達 驅動電路](images/vMotor_set.JPG)
 
 ## 電路運作原理
 
@@ -81,7 +81,7 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 
 ## 光敏電阻（光線感測）接線（GPIO 3）
 
-![光敏電阻](images/ldr_connection.jpg)
+![光敏電阻](images/ldr_connection.JPG)
 
 | 步驟 | 連接點 A | 連接點 B | 說明 |
 | :---: | :--- | :--- | :--- |
@@ -100,43 +100,43 @@ DIY 友善設計：採用常見、易於取得的電子零件，搭配 3D 列印
 
 ## MPU6050（陀螺儀）I2C接線（GPIO 8 SDA, GPIO 9 SCL）
 
-![MPU6050](images/MPU6050.jpg)
+![MPU6050](images/MPU6050.JPG)
 
 ## ESP32C3 以及 電源：
 
-![充電模組](images/charger.jpg)
+![充電模組](images/charger.JPG)
 
 - 引出充電模組的 OUT- 和 OUT+ 經過「電源開關」。
 
 
-![ESP32C3](images/esp32c3_gpio.jpg)
+![ESP32C3](images/esp32c3_gpio.JPG)
 
 - MPU6050 SDA > 8，SCL > 9 。 震動馬達模組 IN > 1 。 光敏電阻 > 3 。
 
 
-![共地接線](images/neg_wiring.jpg)
+![共地接線](images/neg_wiring.JPG)
 
 - 充電模組的 OUT- 連接 MPU6050、震動馬達模組、光敏電阻 負極 並且引出 預留接駁ESP32C3 負極。
 
 
-![3.3V接線](images/3_3V_wiring.jpg)
+![3.3V接線](images/3_3V_wiring.JPG)
 
 - MPU6050、震動馬達模組、光敏電阻 正極連接 ESP32C3 3.3V
 
 
-![5V接線](images/final_wiring.jpg)
+![5V接線](images/final_wiring.JPG)
 
 - OUT+經過「電源開關」接到 ESP32-C3 的 5V ，共地負極接駁ESP32C3 負極。
   
 
-![充電模組](images/battery.jpg)
+![充電模組](images/battery.JPG)
 
 - 最後鋰電池透過「充電模組」的 BAT+ 和 BAT- 連接。
   
 
 # 2. 3D 列印外殼
 
-![3D 列印外殼](images/3dprinting.jpg)
+![3D 列印外殼](images/3dprinting.JPG)
 請使用以下建議設定列印外殼。STL 檔案可以在 hardware/3d_print/ 資料夾中找到。
 
 材料：PLA 或 PLA+ (約 10g)
