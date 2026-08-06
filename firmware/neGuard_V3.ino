@@ -357,7 +357,6 @@ void loop() {
       Serial.println("BLE 已完全關閉");
     }
   }
-
   delay(1);
 }
 
