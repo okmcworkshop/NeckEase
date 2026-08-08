@@ -311,6 +311,7 @@ void loop() {
         }
       } else {
         if (alertTriggered) {
+          digitalWrite(V_MOTOR_PIN, LOW);
           alertTriggered = false;
           Serial.println("姿勢已恢復，關閉振動");
           _print_gyro_data();
@@ -331,7 +332,7 @@ void loop() {
   }
 
   // ----- 處理手動警報（alarm）超時清除 -----
-  if (alarmActive && (millis() - alarmStartTime >= 1000)) {
+  if (alarmActive && (millis() - alarmStartTime >= 100)) {
     alarmActive = false;
     Serial.println("Alarm timer expired, flag cleared");
   }
