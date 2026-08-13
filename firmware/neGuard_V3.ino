@@ -47,6 +47,8 @@ const int V_MOTOR_PIN = 1;       // GPIO1
 
 // 警報（來自 App 手動觸發）
 unsigned long alarmStartTime = 0;
+unsigned long lastBlinkTime = 0;
+int _BlinkCap = 1000;
 bool alarmActive = false;
 
 // 連線狀態標誌（用於列印）
@@ -338,8 +340,9 @@ void loop() {
   }
 
   // ----- 馬達狀態統一控制 -----
-  if (alertTriggered) {
+  if (alertTriggered && millis() - lastBlinkTime >= _BlinkCap) {
     blinkMotor(1);
+    lastBlinkTime = millis();
   } else if (alarmActive) {
     digitalWrite(V_MOTOR_PIN, HIGH);
   } else {
